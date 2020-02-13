@@ -3,9 +3,9 @@
 
 
 class Anagram
-  
+
   def initialize(str)
-    @word = str 
+    @word = str
   end
   def match(arr)
     arr.select do |poss|
